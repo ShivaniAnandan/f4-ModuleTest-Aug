@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  
+}
+.Linnk{
+  margin: 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.link{
+  padding-top: 17px;
+  padding-right: 30px;
+}
+h4{
+  margin: 4px;
+  font-size: 32px;
+  color: aliceblue;
+  padding-left: 30px;
+}
+.bar{
+  padding-top: 18px;
+  
+}
+
+.input[type=text]{
+  width: 300px;
+  padding: 8px 20px;
+}
+.input[type=text]:focus {
+  width: 300px;
+  padding: 8px 20px;
+  border: 3px solid rgb(0, 183, 255);
+}
+.button{
+  color: aliceblue;
+  background-color: black;
+  padding: 8px 20px;
+}
+.details{
+  background-color: #fff; /* Set background color */
+  padding: 20px; /* Add padding for spacing inside the item */
+  margin: 10px; /* Add margin for spacing between items */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
